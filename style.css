@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  padding: 40px 10px;
+}
+
+/* Main box */
+.card-container {
+  background: white;
+  border-radius: 20px;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Blue top box */
+.profile-section {
+  background-color: #1e90ff;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+  margin-bottom: 15px;
+}
+
+.profile-info h2 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.subtitle {
+  color: white;
+  font-size: 1rem;
+}
+
+/* Inner content box */
+.autobio-section {
+  padding: 30px 40px;
+  background-color: #fff;
+}
+
+.autobio-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.autobio-section h3 {
+  margin-top: 20px;
+  color: #222;
+}
+
+.autobio-section p {
+  margin-top: 5px;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Footer inside box */
+footer {
+  text-align: center;
+  background-color: #1e90ff;
+  color: white;
+  padding: 12px 20px;
+  font-size: 0.9rem;
+}
